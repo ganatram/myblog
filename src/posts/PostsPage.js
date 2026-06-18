@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import { getPosts } from "./getPosts";
+import { PostList } from "./PostList";
 
 export function PostsPage() {
   const [isLoading, setIsLoading] = useState(true);
@@ -18,5 +19,5 @@ export function PostsPage() {
       cancel = true;
     };
   }, []);
-  return <div> placeholder </div>;
+  return <PostList posts={posts} />;
 }
