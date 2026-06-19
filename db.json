@@ -14,21 +14,6 @@
       "title": "Using fetch to POST data",
       "description": "How to use fetch to make HTTP POST requests to a backend API",
       "id": 3
-    },
-    {
-      "title": "some title",
-      "description": "some description",
-      "id": 4
-    },
-    {
-      "title": "some title",
-      "description": "some description",
-      "id": 5
-    },
-    {
-      "title": "another title",
-      "description": "another description",
-      "id": 6
     }
   ]
 }

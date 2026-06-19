@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
-import { getPosts } from "./getPosts";
 import { PostList } from "./PostList";
+import { getPosts } from "./getPosts";
 
 export function PostsPage() {
   const [isLoading, setIsLoading] = useState(true);
